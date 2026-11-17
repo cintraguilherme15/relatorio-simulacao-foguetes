@@ -1,0 +1,77 @@
+{
+  "nome": "Foguete Exemplo",
+  "observacao": "Valores ilustrativos. Substitua pelos dados reais do seu foguete.",
+  "lancamento": {
+    "latitude": -18.92,
+    "longitude": -48.28,
+    "altitude_m": 860,
+    "trilho_m": 5.0,
+    "inclinacao_graus": 85,
+    "direcao_graus": 0
+  },
+  "foguete": {
+    "raio_m": 0.0375,
+    "massa_sem_motor_kg": 2.2,
+    "inercia_kgm2": [
+      0.45,
+      0.45,
+      0.003
+    ],
+    "cd": 0.45,
+    "cg_sem_motor_m": 0.75
+  },
+  "coifa": {
+    "comprimento_m": 0.25,
+    "tipo": "von karman",
+    "posicao_m": 1.55
+  },
+  "aletas": {
+    "quantidade": 4,
+    "corda_raiz_m": 0.11,
+    "corda_ponta_m": 0.05,
+    "envergadura_m": 0.065,
+    "posicao_m": 0.13,
+    "enflechamento_m": 0.05
+  },
+  "motor": {
+    "curva_empuxo": [
+      [
+        0,
+        0
+      ],
+      [
+        0.05,
+        300
+      ],
+      [
+        0.3,
+        280
+      ],
+      [
+        1.0,
+        230
+      ],
+      [
+        1.5,
+        90
+      ],
+      [
+        1.7,
+        0
+      ]
+    ],
+    "massa_seca_kg": 0.35,
+    "raio_bocal_m": 0.012,
+    "raio_externo_grao_m": 0.025,
+    "raio_interno_grao_m": 0.01,
+    "altura_grao_m": 0.12,
+    "numero_graos": 2,
+    "densidade_grao_kgm3": 1700,
+    "separacao_graos_m": 0.005,
+    "posicao_m": 0.0
+  },
+  "paraquedas": {
+    "cd_area_m2": 0.6,
+    "atraso_s": 1.0
+  }
+}
